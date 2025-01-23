@@ -34,7 +34,7 @@ with open(file=onehotencoder_obj_file_path,mode='rb') as file:
 with open (file=scaler_obj_file_path,mode='rb') as file:
     scaler_obj=pickle.load(file=file)   
 
-st.title('ANN Salary Prediction')
+st.title('Salary Prediction Using ANN')
 
 #userinput:
 credit_score=st.number_input('Credit Score')
